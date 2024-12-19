@@ -7,7 +7,7 @@ $message = $_POST['message'];
 
 $mailheader = "From:".$name."<".$email.">\r\n";
 
-$recipient = "jessegudgeon@gmail.com";
+$recipient = "jessegudgeon@gmail.com"; //Change for a different recipient
 
 mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
@@ -25,7 +25,7 @@ echo'
 </head>
 <body>
     <div class="container">
-        <h1>Thank you for contacting me. I will get back to you as soon as possible!</h1>
+        <h1>Thank you for contacting me. I will get back to you as soon as possible!</h1> 
         <p class="back">Go back to the <a href="Index.html">homepage</a>.</p>
         
     </div>
